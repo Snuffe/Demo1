@@ -10,6 +10,7 @@ namespace AS1
     {
         static void Main(string[] args)
         {
+            aa
         }
     }
 }
