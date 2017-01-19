@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AS1
 {
@@ -10,7 +6,47 @@ namespace AS1
     {
         static void Main(string[] args)
         {
-            aa
+            int luku;
+            Console.Write("Anna luku > ");
+            luku = int.Parse(Console.ReadLine());
+
+            if (luku == 1)
+            {
+                Console.WriteLine("yksi");
+                System.Threading.Thread.Sleep(1000);
+
+            }
+
+            else if (luku == 2)
+            {
+                Console.WriteLine("kaksi");
+                System.Threading.Thread.Sleep(1000);
+
+            }
+
+            else if (luku == 3)
+            {
+                Console.WriteLine("kolme");
+                System.Threading.Thread.Sleep(1000);
+
+            }
+
+            else
+            {
+                Console.WriteLine("joku muu luku");
+                System.Threading.Thread.Sleep(1000);
+
+            }
+
         }
     }
 }
+
+
+
+
+
+
+
+
+
